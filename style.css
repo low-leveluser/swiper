@@ -48,60 +48,60 @@
 .slider-main__logo--lenovo {
     width: 108px;
     height: 32px;
-    background: url('/img/slider-menu/lenovo.png') no-repeat;
+    background: url('/swiper/img/slider-menu/lenovo.png') no-repeat;
     margin-left: 16px;
 }
 
 .slider-main__logo--samsung {
     width: 116px;
     height: 39px;
-    background: url('/img/slider-menu/samsung.png') no-repeat;
+    background: url('/swiper/img/slider-menu/samsung.png') no-repeat;
     margin-left: 16px;
 }
 
 .slider-main__logo--apple{
     width: 44px;
     height: 44px;
-    background: url('/img/slider-menu/apple.png') no-repeat;
+    background: url('/swiper/img/slider-menu/apple.png') no-repeat;
     margin-left: 16px;
 }
 .slider-main__logo--view-sonic{
     width: 128px;
     height: 26px;
-    background: url('/img/slider-menu/viewsonic.png') no-repeat;
+    background: url('/swiper/img/slider-menu/viewsonic.png') no-repeat;
     margin-left: 16px;
 }
 
 .slider-main__logo--bosch {
     width: 128px;
     height: 29px;
-    background: url('/img/slider-menu/bosch.png') no-repeat;
+    background: url('/swiper/img/slider-menu/bosch.png') no-repeat;
     margin-left: 16px;
 }
 
 .slider-main__logo--hp {
     width: 52px;
     height: 52px;
-    background: url('/img/slider-menu/hp.png') no-repeat;
+    background: url('/swiper/img/slider-menu/hp.png') no-repeat;
     margin-left: 10px;
 }
 
 .slider-main__logo--acer {
     width: 94px;
     height: 24px;
-    background: url('/img/slider-menu/acer.png') no-repeat;
+    background: url('/swiper/img/slider-menu/acer.png') no-repeat;
     margin-left: 16px;
 }
 .slider-main__logo--sony {
     width: 128px;
     height: 26px;
-    background: url('/img/slider-menu/sony.png') no-repeat;
+    background: url('/swiper/img/slider-menu/sony.png') no-repeat;
     margin-left: 16px;
 }
 .slider-main__icon {
     width: 40px;
     height: 40px;
-    background: url('/img/slider-menu/go.svg') no-repeat;
+    background: url('/swiper/img/slider-menu/go.svg') no-repeat;
     margin-right: 16px;
 }
 
@@ -124,12 +124,12 @@
 }
 
 .show-more{
-    background-image: url("/img/labelicon.svg");
+    background-image: url("/swiper/img/labelicon.svg");
     background-repeat: no-repeat;
     background-position: 0px 6px;
 }
 .hide-more {
-    background-image: url("/img/labeliconreverse.svg");
+    background-image: url("/swiper/img/labeliconreverse.svg");
     background-repeat: no-repeat;
     background-position: 0px 6px;
 }

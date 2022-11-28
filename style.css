@@ -1,0 +1,186 @@
+.slider-menu__header {
+    min-height: 56px;
+    width: auto;
+    background: linear-gradient(270deg, #F8F8F8 0%, #FFFFFF 98.61%);
+    transform: matrix(-1, 0, 0, 1, 0, 0);
+}
+.slider-menu__wrapper {
+    padding: 16px;
+}
+.slider-menu__paragraph {
+    transform: matrix(-1, 0, 0, 1, 0, 0);
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+/*-------------------------------------------слайдер меню main-------------------------------------------*/
+.slider-menu {
+
+    font-family: 'TTLakes-Regular';
+
+    display: inline-block;
+
+}
+.slider-main {
+    width: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: auto;
+
+}
+.slider-main__slider-item {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    min-height: 72px;
+    min-width: 240px;
+    border: 1px solid #EAEAEA;
+    border-radius: 6px;
+    background-color: #FFFFFF;
+    margin: 12px;
+}
+
+
+.slider-main__logo--lenovo {
+    width: 108px;
+    height: 32px;
+    background: url('/img/slider-menu/lenovo.png') no-repeat;
+    margin-left: 16px;
+}
+
+.slider-main__logo--samsung {
+    width: 116px;
+    height: 39px;
+    background: url('/img/slider-menu/samsung.png') no-repeat;
+    margin-left: 16px;
+}
+
+.slider-main__logo--apple{
+    width: 44px;
+    height: 44px;
+    background: url('/img/slider-menu/apple.png') no-repeat;
+    margin-left: 16px;
+}
+.slider-main__logo--view-sonic{
+    width: 128px;
+    height: 26px;
+    background: url('/img/slider-menu/viewsonic.png') no-repeat;
+    margin-left: 16px;
+}
+
+.slider-main__logo--bosch {
+    width: 128px;
+    height: 29px;
+    background: url('/img/slider-menu/bosch.png') no-repeat;
+    margin-left: 16px;
+}
+
+.slider-main__logo--hp {
+    width: 52px;
+    height: 52px;
+    background: url('/img/slider-menu/hp.png') no-repeat;
+    margin-left: 10px;
+}
+
+.slider-main__logo--acer {
+    width: 94px;
+    height: 24px;
+    background: url('/img/slider-menu/acer.png') no-repeat;
+    margin-left: 16px;
+}
+.slider-main__logo--sony {
+    width: 128px;
+    height: 26px;
+    background: url('/img/slider-menu/sony.png') no-repeat;
+    margin-left: 16px;
+}
+.slider-main__icon {
+    width: 40px;
+    height: 40px;
+    background: url('/img/slider-menu/go.svg') no-repeat;
+    margin-right: 16px;
+}
+
+/*скрытый слайдер*/
+
+.hidden-item{
+    display: none;
+}
+.showed-item {
+    display: flex;
+}
+.button {
+    cursor: pointer;
+    min-width: 100px;
+    height: 30px;
+    padding-left: 20px;
+    color: black;
+    text-decoration: none;
+    margin-left: 23px;
+}
+
+.show-more{
+    background-image: url("/img/labelicon.svg");
+    background-repeat: no-repeat;
+    background-position: 0px 6px;
+}
+.hide-more {
+    background-image: url("/img/labeliconreverse.svg");
+    background-repeat: no-repeat;
+    background-position: 0px 6px;
+}
+
+.show-more-wrapper{
+    max-width: 1120px;
+
+}
+
+/*-------------------------------------------swiper-------------------------------------------*/
+.swiper {
+    height: auto;
+    width: 280px;
+
+}
+.pagination-wrapper{
+    margin-top: 40px;
+}
+.swiper-slide {
+    width: 100%;
+    padding: 0px;
+    align-items: center;
+}
+
+@media (max-width: 400px) {
+    .slider-main,
+
+    .show-more-wrapper {
+        display: none;
+    }
+}
+
+@media (min-width: 700px) {
+    .slider-main__slider-item{
+        min-width: 224px;
+    }
+    .tablet__hidden-item{
+        display: none;
+    }
+    .swiper
+     {
+        display: none;
+    }
+}
+@media (min-width: 1000px) {
+
+    .tablet__hidden-item{
+        display: flex;
+    }
+    .swiper
+    {
+        display: none;
+    }
+}
